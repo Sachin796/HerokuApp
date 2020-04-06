@@ -2,7 +2,6 @@
 // =============================================================
 var express = require("express");
 var path = require("path");
-require("dotenv").config();
 
 // Sets up the Express App
 // =============================================================

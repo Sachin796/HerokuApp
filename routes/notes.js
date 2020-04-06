@@ -3,7 +3,7 @@ const router = express.Router();
 const { Notes } = require("../model/notes");
 const auth = require("../middleware/auth");
 
-router.get("/", auth, async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     let notes = await Notes.find();
     if (!notes) {

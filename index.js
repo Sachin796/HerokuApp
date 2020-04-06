@@ -5,7 +5,7 @@ const users = require("./routes/users");
 const contacts = require("./routes/contacts");
 const notes = require("./routes/notes");
 const auth = require("./routes/auth");
-
+require("dotenv").config();
 /*******************************************/
 const app = express();
 app.use(express.json());
