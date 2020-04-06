@@ -24,6 +24,6 @@ app.use("/api/contacts", contacts);
 // this route will be called for any notes
 app.use("/api/notes", notes);
 
-app.listen(process.env.port||config.get("PORT"), () =>
+app.listen(process.env.PORT || config.get("PORT"), () =>
   console.log(`Digital Diary lift off on port ${config.get("PORT")}!`)
 );
