@@ -1,5 +1,22 @@
-# **Instructions**
+## Contribution in Digital Diary
 
-* Spend a few moments looking over the code sent to you. First, get the server running, then begin to dissect the JavaScript code found at the bottom of `add.html`.
+# Yash Parekh
+1. Initial Project setup - database connection and design, 
+2. index.js(route setup)
+3. Authentication using jwt and middleware
+4. Models - Contact, User
+5. Server Side validation of Contact and User
+6. Routes - auth(login),contact(CRUD, toggleBokmark) ,user(signup)
 
-* Explain to one another what the code does, what its for, and why its relevant to the application so far. Be sure to explain to one another what the `$.post` code is doing.
+# Sachin Jhaveri
+1. Database Design, 
+2. mongodb atlast setup
+3. Models - Notes
+5. Server side validation of Notes
+4. Routes - Notes, user
+
+# Heroku Deployment
+https://gladiators-digital-diary.herokuapp.com/
+
+# Our Initial Work on different Repo
+https://github.com/yash-jp/DigitalDiary
