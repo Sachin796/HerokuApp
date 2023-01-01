@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.8",
-    "config": "^3.2.5",
+    "config": "^3.3.8",
     "dotenv": "^8.2.0",
     "env": "0.0.2",
     "express": "^4.17.1",
